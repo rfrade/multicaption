@@ -18,6 +18,8 @@ MultiCaption contains **11,088 labeled claim pairs across 64 languages**, making
   - **Contradicting (C):** Two claims cannot both be true for the same image or video.
   - **Non-Contradicting (NC):** Two claims are mutually consistent.
 
+The dataset is available for research purposes only. Access can be requested at: https://doi.org/10.5281/zenodo.18230659
+
 ### Language Composition
 - **Monolingual pairs:** 8,131  
 - **Cross-lingual pairs:** 2,957  
