@@ -107,3 +107,8 @@ LLMs are evaluated in both **zero-shot** and **fine-tuned** settings, with separ
   Some contradictions depend on subtle temporal, cultural, or geopolitical context that remains challenging for current models.
 
 
+## Contact information
+For questions or suggestions, open an issue or contact:
+
+**Rafael Martins Frade** – mfrade.rafael@gmail.com  
+**Rrubaa Panchendrarajan** – r.panchendrarajan@qmul.ac.uk  
