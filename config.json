@@ -1,0 +1,8 @@
+{
+  "project_path":"..",
+  "llm_config": {
+    "hf_token": "",
+    "cache_dir": ""
+  },
+  "openai_api": ""
+}

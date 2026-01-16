@@ -1,0 +1,9 @@
+requests~=2.32.3
+tqdm~=4.66.5
+python-dotenv~=1.0.1
+pandas~=2.2.3
+datasets~=4.4.0
+accelerate~=1.11.0
+transformers~=4.49.0
+torch~=2.6.0
+evaluate~=0.4.6
