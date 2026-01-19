@@ -108,6 +108,17 @@ LLMs are evaluated in both **zero-shot** and **fine-tuned** settings, with separ
 - **Contextual complexity**  
   Some contradictions depend on subtle temporal, cultural, or geopolitical context that remains challenging for current models.
 
+## Citation
+
+@misc{frade2026multicaptiondetectingdisinformationusing,
+      title={MultiCaption: Detecting disinformation using multilingual visual claims}, 
+      author={Rafael Martins Frade and Rrubaa Panchendrarajan and Arkaitz Zubiaga},
+      year={2026},
+      eprint={2601.11220},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2601.11220}, 
+}
 
 ## Contact information
 For questions or suggestions, open an issue or contact:
