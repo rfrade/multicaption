@@ -112,5 +112,5 @@ LLMs are evaluated in both **zero-shot** and **fine-tuned** settings, with separ
 ## Contact information
 For questions or suggestions, open an issue or contact:
 
-**Rafael Martins Frade** – mfrade.rafael@gmail.com  
+**Rafael Martins Frade** – rafael.martins@newtral.es  
 **Rrubaa Panchendrarajan** – r.panchendrarajan@qmul.ac.uk  
