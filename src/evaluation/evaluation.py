@@ -145,7 +145,9 @@ def save_excel(project_path: str):
 
 def save_predictions_file(eval_config:EvaluationConfig,
                           predictions:list[int]):
-    destination_folder = eval_config.save_predictions_to
+    project_path = config_dict["project_path"]
+    destination_folder = f"{project_path}/results"
+
     if destination_folder is not None:
         dict_predictions = {"line_number":range(len(predictions)),
                             "predicted_label":predictions}
@@ -169,17 +171,17 @@ def eval_methods(eval_config_list: list[EvaluationConfig]):
         claim_list_1, claim_list_2, ground_truth_labels = get_claims_and_labels(eval_config)
 
         results_per_iteration = []
-        iterations = 1 if eval_config.function_name == "NLI" else 5
+        #iterations = 1 if eval_config.function_name == "NLI" else 5
 
         try:
             for i in range(eval_config.iterations):
                 logger.info(f"Iteration: {i}")
-                predictions = function(claim_list_1, claim_list_2, i)
+                predictions = function(claim_list_1, claim_list_2) #i
 
                 results_eval = get_metrics(eval_config, predictions, ground_truth_labels)
                 results_per_iteration.append(results_eval)
                 log_results(results_eval, ground_truth_labels, predictions)
-                save_predictions_file(eval_config, predictions)
+                #save_predictions_file(eval_config, predictions)
         except Exception as e:
             error_details = traceback.format_exc()
             print("Full error details:\n", error_details)

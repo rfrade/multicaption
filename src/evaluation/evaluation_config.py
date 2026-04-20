@@ -2,7 +2,7 @@ import pandas as pd
 from collections.abc import Callable
 class EvaluationConfig:
     """
-    Contains the basic information to run an evaluation on a dataset
+        Contains the basic information to run an evaluation on a dataset
     """
     def __init__(self,
                  function: Callable,
@@ -12,7 +12,8 @@ class EvaluationConfig:
                  dataset_name: str,
                  description: str,
                  use_translation: bool=False,
-                 save_predictions: bool=False):
+                 save_predictions: bool=False,
+                 iterations=5):
         self.function = function
         self.function_name = function_name
         self.model_name = model_name
@@ -21,3 +22,4 @@ class EvaluationConfig:
         self.description = description
         self.use_translation = use_translation#
         self.save_predictions = save_predictions
+        self.iterations = iterations
